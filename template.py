@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level = logging.INFO, format = '[%(asctime)s]: %(message)s:')
 
-project_name = "text_Summarizer"
+project_name = "textSummarizer"
 
 list_of_files = [#use to make file all at one time
     ".github/workflows/.gitkeep",
@@ -24,7 +24,8 @@ list_of_files = [#use to make file all at one time
     "Dockerfile",
     "requirements.txt",
     "setup.py",
-    "research/trials.ipynb"
+    "research/trials.ipynb",
+    "main.py"
 ]
 
 for filepath in list_of_files:
